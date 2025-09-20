@@ -11,11 +11,15 @@ The project website is built using Jekyll and deployed via GitHub Pages from the
 
 ### ⚠️ Deployment Issue
 
-**Status**: GitHub Pages deployment is currently failing due to repository configuration.
+**Current Status**: GitHub Actions deployment is working correctly, but the site may not be accessible.
 
-**Action Required**: A repository administrator needs to configure GitHub Pages to use "GitHub Actions" as the deployment source.
+**Action Required**: A repository administrator may need to configure GitHub Pages settings:
 
-📖 **See [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) for detailed setup instructions.**
+1. Go to [Repository Settings > Pages](https://github.com/BlueshoresWeb/Blueshores/settings/pages)
+2. Set **Source** to "GitHub Actions" (if not already set)
+3. Verify the site is accessible at: https://blueshoresweb.github.io/Blueshores/
+
+📋 **Detailed diagnosis and troubleshooting**: See [DEPLOYMENT_DIAGNOSIS.md](DEPLOYMENT_DIAGNOSIS.md)
 
 ### Local Development
 
