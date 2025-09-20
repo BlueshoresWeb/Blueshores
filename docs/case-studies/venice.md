@@ -1,40 +1,19 @@
 ---
-layout: default
+layout: case-study
+title: Venice Lagoon (micro-tidal)
 permalink: /case-studies/venice
+context: |
+  Tide: micro • Slope: mixed • Energy: moderate. Constraints: navigation channels, heritage.
+intervention: |
+  Fascine breakwalls + oyster shell reef + BESE® elements. Placement optimized for wake dissipation.
+monitoring: |
+  Wave loggers (Hsig), SED elevation pins, seasonal habitat surveys.
+kpis:
+  - { key: wave_attenuation, value: TBD }
+  - { key: sediment_delta, value: TBD }
+  - { key: habitat_recovery, value: TBD }
+  - { key: public_acceptance, value: TBD }
+  - { key: maintenance_cost, value: TBD }
+transfer: |
+  Applicable to other micro-tidal, historic urban waterfronts with vessel wake as dominant driver.
 ---
-
-# Venice Lagoon Case Study
-
-Venice faces unique challenges as a historic maritime city dealing with rising sea levels, tourism pressures, and the need to maintain its working port functions.
-
-## Project Overview
-
-Our Venice case study focuses on developing multifunctional foreshore solutions that:
-
-- Protect the historic city from flooding and storm surge
-- Support cruise and cargo port operations
-- Enhance lagoon ecosystem health
-- Preserve cultural heritage sites
-
-## Key Challenges
-
-- **Sea Level Rise**: Increasing frequency of *acqua alta* events
-- **Port Operations**: Balancing tourism and commercial shipping
-- **Ecosystem Health**: Restoring lagoon biodiversity
-- **Heritage Protection**: Safeguarding UNESCO World Heritage sites
-
-## Proposed Solutions
-
-- Living shoreline installations
-- Adaptive port infrastructure
-- Integrated water management systems
-- Ecosystem restoration zones
-
-## Expected Outcomes
-
-- Reduced flood risk for the historic city
-- Enhanced port operational resilience
-- Improved lagoon water quality and biodiversity
-- Sustainable tourism and economic development
-
-[Back to Case Studies]({{ "/case-studies/" | relative_url }}) | [Next: Eastern Scheldt]({{ "/case-studies/eastern-scheldt" | relative_url }})
