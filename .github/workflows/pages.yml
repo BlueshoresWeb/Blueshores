@@ -42,10 +42,22 @@ jobs:
         with:
           enablement: true
       
+      - name: Verify Pages Configuration
+        run: |
+          echo "✅ Pages Configuration:"
+          echo "  Base URL: ${{ steps.pages.outputs.base_url }}"
+          echo "  Base Path: ${{ steps.pages.outputs.base_path }}"
+          echo "  Origin: ${{ steps.pages.outputs.origin }}"
+          echo "  Host: ${{ steps.pages.outputs.host }}"
+      
       - name: Build with Jekyll
         run: |
           cd docs
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+          echo "🏗️ Building Jekyll site..."
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --verbose
+          echo "✅ Jekyll build completed successfully"
+          echo "📁 Generated files in _site:"
+          ls -la _site/
         env:
           JEKYLL_ENV: production
       
@@ -67,3 +79,20 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      
+      - name: Display Deployment Information
+        run: |
+          echo "🚀 Deployment completed successfully!"
+          echo "📍 Site URL: ${{ steps.deployment.outputs.page_url }}"
+          echo "🔗 Direct link: https://blueshoresweb.github.io/Blueshores/"
+          echo ""
+          echo "⏰ Note: It may take 5-10 minutes for the site to be accessible"
+          echo "🌐 If you can't access the site:"
+          echo "   1. Wait a few minutes for DNS propagation"
+          echo "   2. Clear your browser cache (Ctrl+F5)"
+          echo "   3. Try incognito/private browsing mode"
+          echo "   4. Check if your network blocks GitHub Pages"
+          echo ""
+          echo "⚙️  Repository Settings:"
+          echo "   Make sure Settings > Pages > Source is set to 'GitHub Actions'"
+          echo "   📋 Full diagnosis: See DEPLOYMENT_DIAGNOSIS.md in repository"
