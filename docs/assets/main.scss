@@ -1,0 +1,235 @@
+---
+---
+
+@import "minima";
+
+// Marine/Ocean Blue Color Palette
+$ocean-deep: #003d5c;      // Deep ocean blue
+$ocean-medium: #0077be;    // Medium ocean blue  
+$ocean-light: #4da6d9;     // Light ocean blue
+$ocean-foam: #b3d9f2;      // Ocean foam blue
+$wave-blue: #2e86ab;       // Wave blue
+$coastal-teal: #4a9eff;    // Coastal teal
+$sea-green: #2a9d8f;       // Sea green accent
+
+// Header styling with marine theme
+.site-header {
+  background: linear-gradient(135deg, #003d5c 0%, #0077be 50%, #4da6d9 100%) !important;
+  border-top: none !important;
+  border-bottom: 3px solid #2e86ab !important;
+  box-shadow: 0 2px 10px rgba(0, 61, 92, 0.3) !important;
+  
+  .site-title {
+    color: white !important;
+    font-weight: 600 !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3) !important;
+    
+    &:hover {
+      color: #b3d9f2 !important;
+      text-decoration: none !important;
+    }
+  }
+  
+  .site-nav {
+    .page-link {
+      color: white !important;
+      font-weight: 500 !important;
+      transition: all 0.3s ease !important;
+      
+      &:hover {
+        color: #b3d9f2 !important;
+        text-decoration: none !important;
+        text-shadow: 0 0 5px rgba(179, 217, 242, 0.5) !important;
+      }
+    }
+    
+    .trigger {
+      .page-link:not(:last-child) {
+        margin-right: 25px !important;
+      }
+    }
+  }
+}
+
+// Main content styling
+.page-content {
+  background: linear-gradient(to bottom, #ffffff 0%, #f8fbff 100%) !important;
+  
+  .wrapper {
+    padding-top: 30px !important;
+  }
+}
+
+// Homepage wave animation
+.home-waves {
+  position: relative !important;
+  overflow: hidden !important;
+  height: 120px !important;
+  margin: 20px 0 40px 0 !important;
+  background: linear-gradient(to bottom, rgba(77, 166, 217, 0.1) 0%, rgba(77, 166, 217, 0.3) 100%) !important;
+  border-radius: 10px !important;
+}
+
+.wave {
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z' fill='%23b3d9f2' fill-opacity='0.6'/%3E%3C/svg%3E") repeat-x !important;
+  animation: wave-animation 15s linear infinite !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.wave:nth-child(2) {
+  bottom: 10px !important;
+  animation: wave-animation 18s linear infinite reverse !important;
+  opacity: 0.8 !important;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z' fill='%234da6d9' fill-opacity='0.5'/%3E%3C/svg%3E") repeat-x !important;
+}
+
+.wave:nth-child(3) {
+  bottom: 20px !important;
+  animation: wave-animation 20s linear infinite !important;
+  opacity: 0.7 !important;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,0V6c0,21.6,291,111.46,741,110.26,445.39,3.6,459-88.3,459-110.26V0Z' fill='%230077be' fill-opacity='0.4'/%3E%3C/svg%3E") repeat-x !important;
+}
+
+@keyframes wave-animation {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-1200px); }
+}
+
+// Enhanced link styling with marine theme
+a {
+  color: #0077be !important;
+  transition: all 0.3s ease !important;
+  
+  &:hover {
+    color: #003d5c !important;
+    text-decoration: none !important;
+    text-shadow: 0 0 3px rgba(0, 119, 190, 0.3) !important;
+  }
+}
+
+// Navigation list styling on homepage
+.wrapper {
+  ul {
+    list-style: none !important;
+    padding-left: 0 !important;
+    
+    li {
+      margin: 15px 0 !important;
+      
+      a {
+        display: inline-block !important;
+        padding: 12px 20px !important;
+        background: linear-gradient(135deg, #b3d9f2 0%, rgba(77, 166, 217, 0.2) 100%) !important;
+        border-radius: 8px !important;
+        border-left: 4px solid #0077be !important;
+        text-decoration: none !important;
+        transition: all 0.3s ease !important;
+        color: #003d5c !important;
+        font-weight: 500 !important;
+        
+        &:hover {
+          background: linear-gradient(135deg, #4da6d9 0%, rgba(77, 166, 217, 0.4) 100%) !important;
+          transform: translateX(10px) !important;
+          box-shadow: 0 4px 15px rgba(77, 166, 217, 0.3) !important;
+          color: white !important;
+        }
+      }
+    }
+  }
+}
+
+// Footer styling
+.site-footer {
+  background: linear-gradient(135deg, #003d5c 0%, #2c3e50 100%) !important;
+  color: white !important;
+  border-top: 3px solid #2e86ab !important;
+  
+  .footer-heading {
+    color: #b3d9f2 !important;
+  }
+  
+  .contact-list, .social-media-list {
+    li a {
+      color: white !important;
+      
+      &:hover {
+        color: #b3d9f2 !important;
+      }
+    }
+  }
+  
+  p {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+}
+
+// Responsive adjustments
+@media screen and (max-width: 600px) {
+  .home-waves {
+    height: 80px !important;
+    margin: 15px 0 30px 0 !important;
+  }
+  
+  .wave {
+    animation-duration: 10s !important;
+  }
+  
+  .site-header {
+    .site-nav {
+      .trigger {
+        .page-link:not(:last-child) {
+          margin-right: 15px !important;
+        }
+      }
+    }
+  }
+}
+
+// Case study styling enhancements
+.case-study {
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    margin: 20px 0 !important;
+    
+    th {
+      background: linear-gradient(135deg, #0077be 0%, #4da6d9 100%) !important;
+      color: white !important;
+      padding: 12px !important;
+      text-align: left !important;
+    }
+    
+    td {
+      padding: 10px 12px !important;
+      border-bottom: 1px solid #b3d9f2 !important;
+    }
+    
+    tr:hover {
+      background: rgba(77, 166, 217, 0.1) !important;
+    }
+  }
+}
+
+// Heading styling with marine accents
+h1, h2, h3, h4, h5, h6 {
+  color: #003d5c !important;
+  
+  &::after {
+    content: '' !important;
+    display: block !important;
+    width: 50px !important;
+    height: 3px !important;
+    background: linear-gradient(to right, #0077be, #4da6d9) !important;
+    margin: 10px 0 !important;
+  }
+}
+
+h1::after {
+  width: 80px !important;
+  height: 4px !important;
+}
