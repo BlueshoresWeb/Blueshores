@@ -9,6 +9,14 @@ The project website is built using Jekyll and deployed via GitHub Pages from the
 - **Source**: The website content is maintained in the `/docs` folder
 - **Deployment**: Automatic deployment to GitHub Pages on commits to the `main` branch
 
+### ⚠️ Deployment Issue
+
+**Status**: GitHub Pages deployment is currently failing due to repository configuration.
+
+**Action Required**: A repository administrator needs to configure GitHub Pages to use "GitHub Actions" as the deployment source.
+
+📖 **See [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) for detailed setup instructions.**
+
 ### Local Development
 
 To work with the website locally:
