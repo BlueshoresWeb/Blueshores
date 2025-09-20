@@ -32,4 +32,4 @@ Follow our progress as we develop innovative solutions for living foreshores tha
 - Events & Presentations
 - Publications & Reports
 
-[Back to Home](/) | [Learn about our objectives](/objectives) | [Explore case studies](/case-studies/)
+[Back to Home]({{ "/" | relative_url }}) | [Learn about our objectives]({{ "/objectives" | relative_url }}) | [Explore case studies]({{ "/case-studies/" | relative_url }})

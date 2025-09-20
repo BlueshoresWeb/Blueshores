@@ -44,4 +44,4 @@ Our Cork Harbour case study focuses on creating multifunctional foreshore infras
 - Renewable energy contribution to national grid
 - Strengthened coastal communities and blue economy
 
-[Previous: Eastern Scheldt](/case-studies/eastern-scheldt) | [Back to Case Studies](/case-studies/)
+[Previous: Eastern Scheldt]({{ "/case-studies/eastern-scheldt" | relative_url }}) | [Back to Case Studies]({{ "/case-studies/" | relative_url }})

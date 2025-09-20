@@ -44,4 +44,4 @@ Our Eastern Scheldt case study examines opportunities to enhance the existing in
 - Sustainable aquaculture development
 - Model for similar barriers worldwide
 
-[Previous: Venice](/case-studies/venice) | [Next: Cork Harbour](/case-studies/cork-harbour)
+[Previous: Venice]({{ "/case-studies/venice" | relative_url }}) | [Next: Cork Harbour]({{ "/case-studies/cork-harbour" | relative_url }})

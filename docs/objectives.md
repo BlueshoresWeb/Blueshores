@@ -24,4 +24,4 @@ Our approach combines cutting-edge research with practical implementation to cre
 3. **Community Value**: Providing benefits to local communities and stakeholders
 4. **Innovation**: Advancing knowledge in coastal engineering and ecology
 
-[Back to Home](/) | [View Case Studies](/case-studies/)
+[Back to Home]({{ "/" | relative_url }}) | [View Case Studies]({{ "/case-studies/" | relative_url }})
