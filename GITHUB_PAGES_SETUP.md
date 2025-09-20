@@ -1,8 +1,12 @@
 # GitHub Pages Deployment Issue and Resolution
 
-## Problem
+> **✅ UPDATE (September 2025): This issue has been resolved. The deployment is now working correctly.**
+> 
+> This document is kept for historical reference.
 
-The GitHub Actions workflow for deploying the Jekyll site to GitHub Pages is failing with the following error:
+## Problem (RESOLVED)
+
+The GitHub Actions workflow for deploying the Jekyll site to GitHub Pages was failing with the following error:
 
 ```
 Get Pages site failed. Please verify that the repository has Pages enabled and configured to build using GitHub Actions, or consider exploring the `enablement` parameter for this action.
