@@ -37,4 +37,4 @@ Our Venice case study focuses on developing multifunctional foreshore solutions 
 - Improved lagoon water quality and biodiversity
 - Sustainable tourism and economic development
 
-[Back to Case Studies](/case-studies/) | [Next: Eastern Scheldt](/case-studies/eastern-scheldt)
+[Back to Case Studies]({{ "/case-studies/" | relative_url }}) | [Next: Eastern Scheldt]({{ "/case-studies/eastern-scheldt" | relative_url }})

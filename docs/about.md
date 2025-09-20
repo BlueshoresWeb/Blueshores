@@ -39,4 +39,4 @@ We combine interdisciplinary research with practical implementation, bringing to
 
 *Contact details for the project team and inquiries will be available soon.*
 
-[Back to Home](/) | [View our objectives](/objectives) | [Read the latest news](/news/)
+[Back to Home]({{ "/" | relative_url }}) | [View our objectives]({{ "/objectives" | relative_url }}) | [Read the latest news]({{ "/news/" | relative_url }})
