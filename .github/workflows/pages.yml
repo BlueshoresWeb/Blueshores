@@ -39,8 +39,15 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-        with:
-          enablement: true
+      
+      - name: Check Pages Configuration
+        run: |
+          echo "ℹ️  If this step fails, it means GitHub Pages is not configured to use GitHub Actions."
+          echo "📋 To fix this:"
+          echo "   1. Go to Repository Settings > Pages"
+          echo "   2. Under 'Source', select 'GitHub Actions'"
+          echo "   3. Save the settings"
+          echo "📖 See GITHUB_PAGES_SETUP.md for detailed instructions"
       
       - name: Build with Jekyll
         run: |
@@ -67,3 +74,22 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        continue-on-error: true
+      
+      - name: Deployment Status
+        run: |
+          if [ "${{ steps.deployment.outcome }}" = "failure" ]; then
+            echo "❌ Deployment failed. This is likely because GitHub Pages is not configured correctly."
+            echo ""
+            echo "🔧 Required Configuration:"
+            echo "   1. Go to Repository Settings > Pages"
+            echo "   2. Under 'Source', select 'GitHub Actions'"
+            echo "   3. Save the settings"
+            echo ""
+            echo "📖 See GITHUB_PAGES_SETUP.md for detailed instructions"
+            echo "✅ The Jekyll site builds correctly - only the deployment configuration needs to be fixed."
+            exit 1
+          else
+            echo "✅ Deployment successful!"
+            echo "🌐 Site URL: ${{ steps.deployment.outputs.page_url }}"
+          fi
