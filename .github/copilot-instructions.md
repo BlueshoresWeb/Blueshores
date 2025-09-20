@@ -151,3 +151,14 @@ bundle exec jekyll serve
 - Review and update GitHub Actions workflow as needed
 - Monitor site performance and accessibility
 - Maintain backup of content and configuration
+
+## Additional Configuration Files
+
+This repository includes additional Copilot configuration files in the `.copilot/` directory:
+
+- **`jekyll-guidelines.md`** - Jekyll-specific development patterns and workflows
+- **`content-style-guide.md`** - Writing guidelines, terminology, and content templates
+- **`workspace-config.md`** - File patterns and common development tasks
+- **`code-patterns.md`** - Examples of common code patterns and structures used in this repository
+
+These files provide detailed guidance for specific aspects of working with this Jekyll-based research website.

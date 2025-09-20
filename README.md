@@ -38,5 +38,6 @@ This repository includes GitHub Copilot instructions to help contributors and ma
   - `jekyll-guidelines.md` - Jekyll and static site development best practices
   - `content-style-guide.md` - Writing guidelines and terminology for the project
   - `workspace-config.md` - File patterns and common development tasks
+  - `code-patterns.md` - Examples of common code patterns and structures
 
 These files provide context about the project structure, coding standards, content conventions, and domain-specific knowledge to help GitHub Copilot provide more relevant suggestions.
