@@ -1,0 +1,20 @@
+wave_attenuation:
+  label: Wave attenuation
+  unit: "%"
+  desc: Reduction of significant wave height behind intervention
+sediment_delta:
+  label: Δ Sediment elevation
+  unit: "mm/day"
+  desc: Net change in bed level
+habitat_recovery:
+  label: Habitat recovery
+  unit: "index"
+  desc: Composite of oyster density / vegetation cover
+public_acceptance:
+  label: Public acceptance
+  unit: "score"
+  desc: Survey/engagement score (0–5)
+maintenance_cost:
+  label: Maintenance vs GI
+  unit: "%"
+  desc: Opex delta relative to grey infrastructure

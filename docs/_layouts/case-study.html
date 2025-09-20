@@ -1,0 +1,33 @@
+---
+---
+<article class="case-study">
+  <h1>{{ page.title }}</h1>
+
+  <h2>Context</h2>
+  {{ page.context | markdownify }}
+
+  <h2>Intervention</h2>
+  {{ page.intervention | markdownify }}
+
+  <h2>Monitoring</h2>
+  {{ page.monitoring | markdownify }}
+
+  <h2>Outcomes (KPI snapshot)</h2>
+  <table>
+    <thead><tr><th>Indicator</th><th>Value</th><th>Unit</th></tr></thead>
+    <tbody>
+    {% assign inds = site.data.indicators %}
+    {% for kpi in page.kpis %}
+      {% assign meta = inds[kpi.key] %}
+      <tr>
+        <td>{{ meta.label }}</td>
+        <td>{{ kpi.value | default: "TBD" }}</td>
+        <td>{{ meta.unit }}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+
+  <h2>Transfer notes</h2>
+  {{ page.transfer | markdownify }}
+</article>
