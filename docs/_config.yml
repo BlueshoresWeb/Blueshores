@@ -1,0 +1,10 @@
+title: Blueshores
+description: Living foreshores for working ports
+theme: minima
+markdown: kramdown
+header_pages:
+  - index.md
+  - objectives.md
+  - case-studies/index.md
+  - news/index.md
+  - about.md
