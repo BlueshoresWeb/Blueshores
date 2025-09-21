@@ -1,0 +1,38 @@
+{% unless page.url == "/" %}
+<nav aria-label="Breadcrumb">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="{{ "/" | relative_url }}">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+    
+    {% assign url_parts = page.url | split: '/' %}
+    {% assign breadcrumb_url = '' %}
+    {% assign position = 2 %}
+    
+    {% for part in url_parts %}
+      {% unless part == '' %}
+        {% assign breadcrumb_url = breadcrumb_url | append: '/' | append: part %}
+        
+        {% if forloop.last %}
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">{{ page.title | default: part | replace: '-', ' ' | capitalize }}</span>
+            <meta itemprop="position" content="{{ position }}" />
+          </li>
+        {% else %}
+          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a itemprop="item" href="{{ breadcrumb_url | relative_url }}">
+              <span itemprop="name">{{ part | replace: '-', ' ' | capitalize }}</span>
+            </a>
+            <meta itemprop="position" content="{{ position }}" />
+          </li>
+        {% endif %}
+        
+        {% assign position = position | plus: 1 %}
+      {% endunless %}
+    {% endfor %}
+  </ol>
+</nav>
+{% endunless %}

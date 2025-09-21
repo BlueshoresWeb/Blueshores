@@ -1,6 +1,10 @@
 ---
 layout: default
 permalink: /about
+title: "About Blueshores"
+description: "Learn about the Blueshores research initiative developing hybrid multifunctional foreshore infrastructure. Discover our mission, research approach, and team expertise in coastal engineering, marine ecology, and blue economy development."
+keywords: "about blueshores, research team, coastal engineering, marine ecology, blue economy, project mission, stakeholder engagement, climate adaptation"
+image: "/assets/images/blueshores-about.jpg"
 ---
 
 # About Blueshores

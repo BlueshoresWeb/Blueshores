@@ -1,6 +1,10 @@
 ---
 layout: default
 permalink: /objectives
+title: "Project Objectives"
+description: "Explore Blueshores project goals and approach to developing innovative coastal protection solutions that integrate environmental benefits with economic opportunities for working ports and coastal communities."
+keywords: "project objectives, coastal protection, environmental benefits, economic opportunities, living foreshores, port operations, blue economy development, innovation"
+image: "/assets/images/blueshores-objectives.jpg"
 ---
 
 # Objectives

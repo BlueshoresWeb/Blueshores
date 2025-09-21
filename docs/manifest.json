@@ -1,0 +1,24 @@
+{
+  "name": "Blueshores - Living Foreshores for Working Ports",
+  "short_name": "Blueshores",
+  "description": "Developing hybrid multifunctional foreshore infrastructure that optimises environmental and blue economy benefits",
+  "start_url": "/Blueshores/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1565C0",
+  "icons": [
+    {
+      "src": "/Blueshores/assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Blueshores/assets/images/icon-512.png", 
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["education", "research", "environment"],
+  "lang": "en",
+  "scope": "/Blueshores/"
+}

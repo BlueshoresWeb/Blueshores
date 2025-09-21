@@ -1,7 +1,10 @@
 ---
 layout: case-study
-title: Cork Harbour (meso-tidal)
+title: Cork Harbour Case Study
 permalink: /case-studies/cork-harbour
+description: "Cork Harbour meso-tidal case study featuring living shorelines, green port infrastructure, and offshore renewables integration with ecosystem restoration zones balancing commercial operations with environmental stewardship."
+keywords: "Cork harbour, meso-tidal, living shorelines, green port infrastructure, offshore renewables, ecosystem restoration, natural heritage, Ireland, port operations"
+image: "/assets/images/cork-harbour-case-study.jpg"
 context: |
   Tide: meso • Slope: variable • Energy: moderate. Constraints: port operations, natural heritage designation.
 intervention: |

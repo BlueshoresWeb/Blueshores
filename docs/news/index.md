@@ -1,6 +1,10 @@
 ---
 layout: default
 permalink: /news/
+title: "News & Updates"
+description: "Stay updated on latest Blueshores project developments, research findings, and milestones. Follow our progress in developing innovative solutions for living foreshores and working ports."
+keywords: "blueshores news, project updates, research progress, publications, events, partnerships, technical innovations, project milestones"
+image: "/assets/images/blueshores-news.jpg"
 ---
 
 # News
