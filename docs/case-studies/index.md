@@ -1,6 +1,10 @@
 ---
 layout: default
 permalink: /case-studies/
+title: "Case Studies"
+description: "Discover Blueshores research implementations across Venice Lagoon, Eastern Scheldt, and Cork Harbour. Explore innovative coastal protection solutions that demonstrate multifunctional foreshore infrastructure benefits."
+keywords: "case studies, Venice lagoon, Eastern Scheldt, Cork harbour, coastal research, foreshore infrastructure, storm surge barriers, biodiversity enhancement, port integration"
+image: "/assets/images/blueshores-case-studies.jpg"
 ---
 
 # Case Studies

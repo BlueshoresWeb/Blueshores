@@ -1,11 +1,34 @@
 title: Blueshores
-description: Living foreshores for working ports
+description: >- 
+  Developing hybrid multifunctional foreshore infrastructure that optimises 
+  environmental and blue economy benefits for working ports. Innovative coastal 
+  solutions combining protection, ecology, and sustainable development.
 baseurl: "/Blueshores"
 url: "https://blueshoresweb.github.io"
 
+# SEO and Site Information
+author: Blueshores Project Team
+keywords: blue economy, coastal protection, foreshore infrastructure, living foreshores, working ports, marine ecology, coastal engineering, sustainable development
+lang: en
+timezone: Europe/London
+
+# Social Media and SEO
+twitter:
+  username: blueshores_proj
+  card: summary_large_image
+
+facebook:
+  app_id: 
+  publisher: 
+  admins: 
+
+# Site structure
 theme: minima
 markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
 
+# Navigation
 header_pages:
   - index.md
   - objectives.md
@@ -13,7 +36,57 @@ header_pages:
   - news/index.md
   - about.md
 
-# GitHub Pages configuration
+# GitHub Pages configuration and SEO plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Feed configuration
+feed:
+  categories:
+    - research
+    - case-studies
+    - news
+
+# Sitemap configuration
+sitemap:
+  priority: 0.8
+  changefreq: 'weekly'
+  lastmod: '2024-01-01'
+
+# SEO optimization
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      show_excerpts: true
+  - scope:
+      path: "case-studies"
+      type: "pages"
+    values:
+      layout: "case-study"
+      show_excerpts: true
+      category: "case-studies"
+  - scope:
+      path: "news"
+      type: "pages"  
+    values:
+      layout: "default"
+      show_excerpts: true
+      category: "news"
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - "*.tmp"
+  - "*.bak"

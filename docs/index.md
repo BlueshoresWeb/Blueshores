@@ -1,6 +1,10 @@
 ---
 layout: default
 permalink: /
+title: "Home"
+description: "Blueshores develops innovative hybrid multifunctional foreshore infrastructure that optimises environmental and blue economy benefits for working ports. Explore our research in coastal protection, marine ecology, and sustainable development."
+keywords: "blueshores, blue economy, coastal protection, foreshore infrastructure, living foreshores, working ports, hybrid infrastructure, sustainable development, marine ecology"
+image: "/assets/images/blueshores-home.jpg"
 ---
 
 # Home
