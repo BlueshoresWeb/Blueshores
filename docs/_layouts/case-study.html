@@ -1,34 +1,62 @@
 ---
 layout: default
 ---
-<article class="case-study">
-  <h1>{{ page.title }}</h1>
+<article class="case-study" itemscope itemtype="https://schema.org/ScholarlyArticle">
+  <header>
+    <h1 itemprop="headline">{{ page.title }}</h1>
+    <meta itemprop="description" content="{{ page.description }}">
+    <meta itemprop="author" content="Blueshores Project Team">
+  </header>
 
-  <h2>Context</h2>
-  {{ page.context | markdownify }}
+  <section>
+    <h2>Context</h2>
+    <div itemprop="about">
+      {{ page.context | markdownify }}
+    </div>
+  </section>
 
-  <h2>Intervention</h2>
-  {{ page.intervention | markdownify }}
+  <section>
+    <h2>Intervention</h2>
+    <div itemprop="articleBody">
+      {{ page.intervention | markdownify }}
+    </div>
+  </section>
 
-  <h2>Monitoring</h2>
-  {{ page.monitoring | markdownify }}
+  <section>
+    <h2>Monitoring</h2>
+    <div>
+      {{ page.monitoring | markdownify }}
+    </div>
+  </section>
 
-  <h2>Outcomes (KPI snapshot)</h2>
-  <table>
-    <thead><tr><th>Indicator</th><th>Value</th><th>Unit</th></tr></thead>
-    <tbody>
-    {% assign inds = site.data.indicators %}
-    {% for kpi in page.kpis %}
-      {% assign meta = inds[kpi.key] %}
-      <tr>
-        <td>{{ meta.label }}</td>
-        <td>{{ kpi.value | default: "TBD" }}</td>
-        <td>{{ meta.unit }}</td>
-      </tr>
-    {% endfor %}
-    </tbody>
-  </table>
+  <section>
+    <h2>Outcomes (KPI snapshot)</h2>
+    <table>
+      <thead><tr><th>Indicator</th><th>Value</th><th>Unit</th></tr></thead>
+      <tbody>
+      {% assign inds = site.data.indicators %}
+      {% for kpi in page.kpis %}
+        {% assign meta = inds[kpi.key] %}
+        <tr>
+          <td>{{ meta.label }}</td>
+          <td>{{ kpi.value | default: "TBD" }}</td>
+          <td>{{ meta.unit }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
 
-  <h2>Transfer notes</h2>
-  {{ page.transfer | markdownify }}
+  <section>
+    <h2>Transfer notes</h2>
+    <div>
+      {{ page.transfer | markdownify }}
+    </div>
+  </section>
+
+  <footer>
+    <nav aria-label="Case study navigation">
+      <p><a href="{{ "/case-studies/" | relative_url }}">← Back to All Case Studies</a></p>
+    </nav>
+  </footer>
 </article>

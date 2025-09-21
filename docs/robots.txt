@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml
+Sitemap: https://blueshoresweb.github.io/Blueshores/sitemap.xml
 
 # Allow major search engines and AI crawlers
 User-agent: Googlebot
