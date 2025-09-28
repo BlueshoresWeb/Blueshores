@@ -233,3 +233,42 @@ h1::after {
   width: 80px !important;
   height: 4px !important;
 }
+
+// Breadcrumb styling
+nav[aria-label="Breadcrumb"] {
+  margin-bottom: 20px !important;
+  padding: 10px 0 !important;
+  border-bottom: 1px solid rgba(77, 166, 217, 0.2) !important;
+  
+  ol {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    
+    li {
+      margin: 0 !important;
+      
+      &:not(:last-child)::after {
+        content: ' / ' !important;
+        margin: 0 8px !important;
+        color: #4da6d9 !important;
+      }
+      
+      a {
+        color: #0077be !important;
+        text-decoration: none !important;
+        
+        &:hover {
+          color: #003d5c !important;
+          text-decoration: underline !important;
+        }
+      }
+      
+      span {
+        color: #666 !important;
+      }
+    }
+  }
+}

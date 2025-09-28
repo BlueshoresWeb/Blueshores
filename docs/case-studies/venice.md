@@ -1,7 +1,10 @@
 ---
 layout: case-study
-title: Venice Lagoon (micro-tidal)
+title: Venice Lagoon Case Study
 permalink: /case-studies/venice
+description: "Venice Lagoon micro-tidal coastal protection case study featuring fascine breakwalls, oyster shell reefs, and BESE elements optimized for wake dissipation in historic urban waterfront environments."
+keywords: "Venice lagoon, micro-tidal, fascine breakwalls, oyster shell reef, BESE elements, wake dissipation, heritage constraints, urban waterfront, coastal protection"
+image: "/assets/images/venice-case-study.jpg"
 context: |
   Tide: micro • Slope: mixed • Energy: moderate. Constraints: navigation channels, heritage.
 intervention: |

@@ -1,7 +1,10 @@
 ---
 layout: case-study
-title: Eastern Scheldt (macro-tidal)
+title: Eastern Scheldt Case Study
 permalink: /case-studies/eastern-scheldt
+description: "Eastern Scheldt macro-tidal case study featuring bio-engineered barrier enhancements, tidal energy integration, and aquaculture zones with adaptive management protocols for existing storm barrier infrastructure."
+keywords: "Eastern Scheldt, macro-tidal, storm barrier, bio-engineered enhancements, tidal energy, aquaculture, adaptive management, marine ecology, Netherlands"
+image: "/assets/images/eastern-scheldt-case-study.jpg"
 context: |
   Tide: macro • Slope: flat • Energy: high. Constraints: existing storm barrier infrastructure, marine ecology.
 intervention: |
