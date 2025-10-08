@@ -18,7 +18,7 @@ Stay updated on the latest developments, research findings, and project mileston
 - **Partnership News**: Collaborations and stakeholder developments
 - **Technical Innovations**: New technologies and methodologies
 - **Event Announcements**: Conferences, workshops, and presentations
-- **Publication Releases**: Research papers and technical reports
+- **Publication Releases**: Research papers and technical reports (see our [Publications page]({{ "/publications" | relative_url }}) for full details)
 
 ## Stay Connected
 
@@ -32,4 +32,4 @@ Follow our progress as we develop innovative solutions for living foreshores tha
 - Events & Presentations
 - Publications & Reports
 
-[Back to Home]({{ "/" | relative_url }}) | [Learn about our objectives]({{ "/objectives" | relative_url }}) | [Explore case studies]({{ "/case-studies/" | relative_url }})
+[Back to Home]({{ "/" | relative_url }}) | [Learn about our objectives]({{ "/objectives" | relative_url }}) | [Explore case studies]({{ "/case-studies/" | relative_url }}) | [View publications]({{ "/publications" | relative_url }})

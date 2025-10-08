@@ -28,4 +28,6 @@ Each case study demonstrates different aspects of hybrid multifunctional foresho
 - Community and stakeholder engagement
 - Economic impact assessment
 
-[Back to Home]({{ "/" | relative_url }}) | [Learn more about our objectives]({{ "/objectives" | relative_url }})
+Research findings from these case studies will be published on our [Publications page]({{ "/publications" | relative_url }}) as they become available.
+
+[Back to Home]({{ "/" | relative_url }}) | [Learn more about our objectives]({{ "/objectives" | relative_url }}) | [View Publications]({{ "/publications" | relative_url }})
