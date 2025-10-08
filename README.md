@@ -30,6 +30,7 @@ To work with the website locally:
 - **Home** (`/`) - Project overview and navigation
 - **Objectives** (`/objectives`) - Project goals and approach
 - **Case Studies** (`/case-studies/`) - Research locations and findings
+- **Publications** (`/publications`) - Research outputs and publications
 - **News** (`/news/`) - Updates and announcements
 - **About** (`/about`) - Project information and team details
 

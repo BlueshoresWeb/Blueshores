@@ -28,6 +28,7 @@ The site is automatically deployed to GitHub Pages via GitHub Actions when chang
 - `about.md` - About page
 - `objectives.md` - Project objectives
 - `case-studies/` - Case study pages
+- `publications.md` - Research publications and outputs
 - `news/` - News and updates
 
 All internal links use Jekyll's `relative_url` filter to ensure proper baseurl handling.

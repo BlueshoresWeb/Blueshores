@@ -19,5 +19,6 @@ This project explores innovative approaches to coastal protection and sustainabl
 
 - [Learn about our objectives]({{ "/objectives" | relative_url }})
 - [Explore case studies]({{ "/case-studies/" | relative_url }})
+- [View publications and research outputs]({{ "/publications" | relative_url }})
 - [Read the latest news]({{ "/news/" | relative_url }})
 - [About the project]({{ "/about" | relative_url }})

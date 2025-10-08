@@ -27,6 +27,8 @@ We combine interdisciplinary research with practical implementation, bringing to
 - **Stakeholder Engagement**: Community and industry collaboration
 - **Climate Adaptation**: Resilience planning for future conditions
 
+Our research outputs, including publications, technical reports, and datasets, are made available on our [Publications page]({{ "/publications" | relative_url }}) as they are completed.
+
 ## Project Team
 
 *Information about the research team, partner institutions, and collaborating organizations will be added as the project develops.*
@@ -39,4 +41,4 @@ We combine interdisciplinary research with practical implementation, bringing to
 
 *Contact details for the project team and inquiries will be available soon.*
 
-[Back to Home]({{ "/" | relative_url }}) | [View our objectives]({{ "/objectives" | relative_url }}) | [Read the latest news]({{ "/news/" | relative_url }})
+[Back to Home]({{ "/" | relative_url }}) | [View our objectives]({{ "/objectives" | relative_url }}) | [View publications]({{ "/publications" | relative_url }}) | [Read the latest news]({{ "/news/" | relative_url }})

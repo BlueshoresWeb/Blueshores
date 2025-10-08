@@ -3,7 +3,7 @@
 ## File Patterns and Purposes
 
 ### Content Files
-- `docs/*.md` - Main site pages (home, about, objectives)
+- `docs/*.md` - Main site pages (home, about, objectives, publications)
 - `docs/case-studies/*.md` - Research case studies and examples
 - `docs/news/*.md` - Project updates and announcements
 
