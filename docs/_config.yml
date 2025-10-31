@@ -10,6 +10,8 @@ header_pages:
   - index.md
   - objectives.md
   - case-studies/index.md
+  - partners.md
+  - publications.md
   - news/index.md
   - about.md
 

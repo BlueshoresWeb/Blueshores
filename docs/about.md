@@ -29,7 +29,27 @@ We combine interdisciplinary research with practical implementation, bringing to
 
 ## Project Team
 
-*Information about the research team, partner institutions, and collaborating organizations will be added as the project develops.*
+### Principal Investigators
+
+*Information about the principal investigators and project leads will be added here.*
+
+### Research Team
+
+**Coastal Engineering**
+- Lead engineers and technical specialists
+
+**Marine Ecology**
+- Marine biologists and ecologists
+
+**Blue Economy**
+- Economists and development specialists
+
+**Stakeholder Engagement**
+- Community liaisons and engagement coordinators
+
+### Collaborating Researchers
+
+We work with an international network of researchers and practitioners. [View our partners]({{ "/partners" | relative_url }}) for more information about collaborating institutions.
 
 ## Funding and Support
 
