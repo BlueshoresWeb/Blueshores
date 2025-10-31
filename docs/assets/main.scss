@@ -233,3 +233,118 @@ h1::after {
   width: 80px !important;
   height: 4px !important;
 }
+
+// News item styling
+.news-item {
+  margin: 30px 0 !important;
+  padding: 25px !important;
+  background: linear-gradient(135deg, rgba(179, 217, 242, 0.1) 0%, rgba(255, 255, 255, 1) 100%) !important;
+  border-left: 5px solid #0077be !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 10px rgba(0, 61, 92, 0.1) !important;
+  transition: all 0.3s ease !important;
+  
+  &:hover {
+    box-shadow: 0 4px 20px rgba(0, 61, 92, 0.2) !important;
+    transform: translateX(5px) !important;
+  }
+  
+  h3 {
+    margin-top: 0 !important;
+    margin-bottom: 10px !important;
+    
+    &::after {
+      display: none !important;
+    }
+    
+    a {
+      color: #003d5c !important;
+      text-decoration: none !important;
+      
+      &:hover {
+        color: #0077be !important;
+      }
+    }
+  }
+  
+  .post-meta {
+    color: #2e86ab !important;
+    font-size: 0.9em !important;
+    margin-bottom: 15px !important;
+    
+    .categories {
+      margin-left: 15px !important;
+      
+      .category {
+        display: inline-block !important;
+        background: rgba(77, 166, 217, 0.2) !important;
+        padding: 3px 10px !important;
+        border-radius: 12px !important;
+        font-size: 0.85em !important;
+        margin-right: 5px !important;
+        color: #003d5c !important;
+        font-weight: 500 !important;
+      }
+    }
+  }
+  
+  .post-excerpt {
+    color: #2c3e50 !important;
+    line-height: 1.6 !important;
+    margin-bottom: 15px !important;
+  }
+  
+  .read-more {
+    display: inline-block !important;
+    color: #0077be !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    
+    &:hover {
+      color: #003d5c !important;
+      transform: translateX(5px) !important;
+    }
+  }
+}
+
+// Blog post styling
+.post {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  
+  .post-header {
+    margin-bottom: 30px !important;
+    
+    .post-title {
+      margin-bottom: 10px !important;
+    }
+    
+    .post-meta {
+      color: #2e86ab !important;
+      font-size: 1em !important;
+    }
+  }
+  
+  .post-content {
+    line-height: 1.8 !important;
+    
+    h2, h3, h4 {
+      margin-top: 35px !important;
+      margin-bottom: 15px !important;
+    }
+    
+    p {
+      margin-bottom: 20px !important;
+    }
+    
+    ul, ol {
+      margin-bottom: 20px !important;
+      padding-left: 30px !important;
+      
+      li {
+        margin-bottom: 10px !important;
+      }
+    }
+  }
+}
