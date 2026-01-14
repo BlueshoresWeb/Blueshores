@@ -56,7 +56,7 @@ $sea-green: #2a9d8f;       // Sea green accent
   background: linear-gradient(to bottom, #ffffff 0%, #f8fbff 100%) !important;
   
   .wrapper {
-    padding-top: 30px !important;
+    padding-top: 0px !important;
   }
 }
 
@@ -308,5 +308,20 @@ h1::after {
 .site-footer {
   margin-top: 0;
   padding-top: 0;
+}
+
+/* Home page: pull hero image up under the header */
+.page-content {
+  padding-top: 10 !important;
+}
+
+/* Remove any top margin from the first thing inside the wrapper */
+.page-content .wrapper > :first-child {
+  margin-top: 10 !important;
+}
+
+/* Make sure the hero itself has no extra margin */
+.home-hero {
+  margin-top: 0 !important;
 }
 
