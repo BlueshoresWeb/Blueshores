@@ -233,3 +233,80 @@ h1::after {
   width: 80px !important;
   height: 4px !important;
 }
+// added
+.site-logo {
+  height: 48px;
+  max-width: 190px;   /* ← controls how wide it can get */
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+  .site-logo {
+    height: 40px;
+    max-width: 120px;
+  }
+}
+/* ===== Home hero ===== */
+.home-hero {
+  text-align: center;
+  margin: 32px 0;
+}
+
+.home-hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+/* ===== EU footer banner ===== */
+.site-footer {
+  border-top: 1px solid rgba(0,0,0,0.12);
+  background: #fafafa;
+  margin-top: 8px;
+}
+
+.site-footer-inner {
+  padding: 14px 10px;
+}
+
+.eu-funding {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.eu-logo {
+  height: 48px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.eu-text {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-width: 720px;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .eu-logo {
+    height: 20px;
+  }
+}
+//
+/* Reduce space before footer (Minima adds bottom spacing on page content) */
+.page-content {
+  padding-bottom: 8px;
+  margin-bottom: 0;
+}
+
+.page-content > :last-child {
+  margin-bottom: 0;
+}
+.site-footer {
+  margin-top: 0;
+  padding-top: 0;
+}
+

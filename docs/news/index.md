@@ -1,5 +1,6 @@
 ---
 layout: default
+title: News
 permalink: /news/
 ---
 
@@ -24,12 +25,5 @@ Stay updated on the latest developments, research findings, and project mileston
 
 Follow our progress as we develop innovative solutions for living foreshores that benefit both the environment and working ports.
 
-## Categories
-
-- Research & Development
-- Project Implementation
-- Partnerships & Collaboration
-- Events & Presentations
-- Publications & Reports
 
 [Back to Home]({{ "/" | relative_url }}) | [Learn about our objectives]({{ "/objectives" | relative_url }}) | [Explore case studies]({{ "/case-studies/" | relative_url }})

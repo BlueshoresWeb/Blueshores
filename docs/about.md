@@ -1,11 +1,65 @@
 ---
 layout: default
+title: About
 permalink: /about
 ---
 
 # About Blueshores
 
 Blueshores is a research and development initiative focused on creating hybrid multifunctional foreshore infrastructure that optimises environmental and blue economy benefits for working ports.
+
+## Partners & Supporting Organisations
+
+<div class="logo-grid" aria-label="Partner logos">
+  <a class="logo-card" href="https://www.aqua.dtu.dk/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/logos/DTU.png' | relative_url }}" alt="European Union" loading="lazy">
+  </a>
+
+  <a class="logo-card" href="https://ihcantabria.com/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/logos/IHC.png' | relative_url }}" alt="Partner University 1" loading="lazy">
+  </a>
+
+  <a class="logo-card" href="https://www.regione.veneto.it/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/logos/Veneto.png' | relative_url }}" alt="Partner Port 1" loading="lazy">
+  </a>
+
+  <a class="logo-card" href="https://www.cut.ac.cy/?languageId=1" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/logos/CUT.png' | relative_url }}" alt="Industry Partner 1" loading="lazy">
+  </a>
+</div>
+
+<style>
+  /* Simple, theme-independent logo grid */
+  .logo-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+    gap:16px;
+    margin:16px 0 8px;
+    align-items:center;
+  }
+  .logo-card{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:14px;
+    border:1px solid rgba(0,0,0,.12);
+    border-radius:12px;
+    background:#fff;
+    text-decoration:none;
+  }
+  .logo-card img{
+    max-height:64px;
+    width:auto;
+    max-width:100%;
+    display:block;
+    object-fit:contain;
+  }
+  .logo-card:focus-visible{
+    outline:3px solid rgba(0, 90, 200, .35);
+    outline-offset:2px;
+  }
+</style>
+
 
 ## Project Mission
 
@@ -30,10 +84,17 @@ We combine interdisciplinary research with practical implementation, bringing to
 ## Project Team
 
 *Information about the research team, partner institutions, and collaborating organizations will be added as the project develops.*
-
 ## Funding and Support
 
-*Details about project funding, sponsors, and supporting organizations will be provided here.*
+<div class="logo-grid" aria-label="Partner logos">
+  <a class="logo-card" href="https://bluepartnership.eu/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/logos/SBEP.svg' | relative_url }}" alt="European Union" loading="lazy">
+  </a>
+</div>
+BLUESHORES – Developing hybrid multifunctional foreshore infrastructure that optimises environmental and blue economy benefits (BLUE-SHORES).
+Part of the Joint Transnational Call for proposals 2024.
+“Unified paths to a climate-neutral, sustainable and resilient blue economy: engaging civil society, academia, policy and industry”
+launched by the Sustainable Blue Economy Partnership
 
 ## Contact Information
 
