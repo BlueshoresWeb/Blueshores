@@ -91,7 +91,7 @@ We combine interdisciplinary research with practical implementation, bringing to
     <img src="{{ '/assets/img/logos/SBEP.svg' | relative_url }}" alt="European Union" loading="lazy">
   </a>
 </div>
-**BLUESHORES** Developing hybrid multifunctional foreshore infrastructure that optimises environmental and blue economy benefits is part of the Joint Transnational Call for proposals 2024:
+**BLUESHORES** Developing hybrid multifunctional foreshore infrastructure that optimises environmental and blue economy benefits, is part of the Joint Transnational Call for proposals 2024:
 “Unified paths to a climate-neutral, sustainable and resilient blue economy: engaging civil society, academia, policy and industry”
 launched by the Sustainable Blue Economy Partnership.
 
