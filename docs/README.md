@@ -31,3 +31,4 @@ The site is automatically deployed to GitHub Pages via GitHub Actions when chang
 - `news/` - News and updates
 
 All internal links use Jekyll's `relative_url` filter to ensure proper baseurl handling.
+version January 2026
