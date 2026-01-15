@@ -60,6 +60,16 @@ Blueshores is a research and development initiative focused on creating hybrid m
   }
 </style>
 
+**Project Partners:**
+**UNIPD** University of Padova
+**NIOZ** The Netherlands Institute for Sea Research
+**DTU** National Institute for Aquatic Resources, Technical University of Denmark
+**FIHAC** Fundación Instituto de Hidráulica Ambiental de Cantabria
+**UCC** University College Cork
+**Athena** Athina-Erevnitiko Kentro Kainotomias Stis Technologies Tis Pliroforias, Ton Epikoinonion KaiTis Gnosis
+**CUT** Technologiko Panepistimio Kyprou
+**PIOPP** Provveditorato interregionale per le Opere pubbliche Veneto - Trentino Alto Adige - Friuli Venezia Giulia
+**VR** Veneto Region
 
 ## Project Mission
 
