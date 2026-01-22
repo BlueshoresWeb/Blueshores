@@ -11,20 +11,24 @@ Blueshores is a research and development initiative focused on creating hybrid m
 ## Partners & Supporting Organisations
 
 <div class="logo-grid" aria-label="Partner logos">
+  <a class="logo-card" href="https://www.nioz.nl/en" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/logos/NIOZ.png' | relative_url }}" alt="" loading="lazy">
+  </a>
+
   <a class="logo-card" href="https://www.aqua.dtu.dk/" target="_blank" rel="noopener">
-    <img src="{{ '/assets/img/logos/DTU.png' | relative_url }}" alt="European Union" loading="lazy">
+    <img src="{{ '/assets/img/logos/DTU.png' | relative_url }}" alt="" loading="lazy">
   </a>
 
   <a class="logo-card" href="https://ihcantabria.com/" target="_blank" rel="noopener">
-    <img src="{{ '/assets/img/logos/IHC.png' | relative_url }}" alt="Partner University 1" loading="lazy">
+    <img src="{{ '/assets/img/logos/IHC.png' | relative_url }}" alt="" loading="lazy">
   </a>
 
   <a class="logo-card" href="https://www.regione.veneto.it/" target="_blank" rel="noopener">
-    <img src="{{ '/assets/img/logos/Veneto.png' | relative_url }}" alt="Partner Port 1" loading="lazy">
+    <img src="{{ '/assets/img/logos/Veneto.png' | relative_url }}" alt="" loading="lazy">
   </a>
 
   <a class="logo-card" href="https://www.cut.ac.cy/?languageId=1" target="_blank" rel="noopener">
-    <img src="{{ '/assets/img/logos/CUT.png' | relative_url }}" alt="Industry Partner 1" loading="lazy">
+    <img src="{{ '/assets/img/logos/CUT.png' | relative_url }}" alt="" loading="lazy">
   </a>
 </div>
 
