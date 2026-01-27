@@ -11,6 +11,10 @@ Blueshores is a research and development initiative focused on creating hybrid m
 ## Partners & Supporting Organisations
 
 <div class="logo-grid" aria-label="Partner logos">
+  <a class="logo-card" href="https://www.unipd.it/en/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/logos/unipd.png' | relative_url }}" alt="" loading="lazy">
+  </a>
+
   <a class="logo-card" href="https://www.nioz.nl/en" target="_blank" rel="noopener">
     <img src="{{ '/assets/img/logos/NIOZ.png' | relative_url }}" alt="" loading="lazy">
   </a>
@@ -23,8 +27,16 @@ Blueshores is a research and development initiative focused on creating hybrid m
     <img src="{{ '/assets/img/logos/IHC.png' | relative_url }}" alt="" loading="lazy">
   </a>
 
+  <a class="logo-card" href="https://www.dept.aueb.gr/en/ReSEES" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/logos/ATH.png' | relative_url }}" alt="" loading="lazy">
+  </a>
+
   <a class="logo-card" href="https://www.cut.ac.cy/?languageId=1" target="_blank" rel="noopener">
     <img src="{{ '/assets/img/logos/CUT.png' | relative_url }}" alt="" loading="lazy">
+  </a>
+
+  <a class="logo-card" href="https://www.mit.gov.it/en" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/logos/MIT.JPG' | relative_url }}" alt="" loading="lazy">
   </a>
 
   <a class="logo-card" href="https://www.regione.veneto.it/" target="_blank" rel="noopener">
