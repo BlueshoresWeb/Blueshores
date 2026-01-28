@@ -122,7 +122,7 @@ We combine interdisciplinary research with practical implementation, bringing to
 launched by the Sustainable Blue Economy Partnership.
 
 ## Contact Information
-**More Information on the project:** Prof. Laura Airoldi laura.airoldi _at_ unipd.it
+**More Information on the project:** Prof. Laura Airoldi *laura.airoldi AT unipd.it*
 
 
 [Back to Home]({{ "/" | relative_url }}) | [View our objectives]({{ "/objectives" | relative_url }}) | [Read the latest news]({{ "/news/" | relative_url }})
