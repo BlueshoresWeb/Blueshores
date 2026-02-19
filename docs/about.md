@@ -31,6 +31,10 @@ Blueshores is a research and development initiative focused on creating hybrid m
     <img src="{{ '/assets/img/logos/ATH2.png' | relative_url }}" alt="" loading="lazy">
   </a>
 
+  <a class="logo-card" href="https://www.ucc.ie/en/" target="_blank" rel="noopener">
+    <img src="{{ '/assets/img/logos/UCC.png' | relative_url }}" alt="" loading="lazy">
+  </a>
+
   <a class="logo-card" href="https://www.cut.ac.cy/?languageId=1" target="_blank" rel="noopener">
     <img src="{{ '/assets/img/logos/CUT.png' | relative_url }}" alt="" loading="lazy">
   </a>
