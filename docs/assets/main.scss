@@ -272,14 +272,20 @@ h1::after {
 
 .eu-funding {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+  margin: 2rem auto;
 }
 
 .eu-logo {
-  height: 48px;
-  width: auto;
+  max-width: 600px;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
   flex-shrink: 0;
 }
 
@@ -287,7 +293,7 @@ h1::after {
   font-size: 0.9rem;
   line-height: 1.4;
   max-width: 720px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 @media (max-width: 600px) {
