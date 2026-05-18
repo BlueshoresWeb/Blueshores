@@ -8,7 +8,7 @@ permalink: /
 
 <div class="home-hero">
   <img
-    src="{{ '/assets/img/hero/foreshore-illustration.jpg' | relative_url }}"
+    src="{{ '/assets/img/hero/Trimmed_Venice_Credits_Patrizio.png' | relative_url }}"
     alt="Illustration of hybrid multifunctional foreshore infrastructure"
     loading="eager"
   >
