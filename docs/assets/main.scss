@@ -197,6 +197,58 @@ a:hover { text-decoration: none; }
 .pillar h3 { margin: 0 0 6px; font-size: 1.05rem; color: var(--ocean-medium); }
 .pillar p { margin: 0; color: var(--muted); font-size: .96rem; }
 
+/* ===== Inner page hero + goals (Objectives) ===== */
+.page-hero { padding: clamp(28px, 5vw, 56px); }
+.page-hero h1 {
+  color: #fff;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin: 0 0 14px;
+}
+.page-hero .hero-lead { margin-bottom: 0; }
+
+.goal-list {
+  list-style: none;
+  counter-reset: goal;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+
+  li {
+    counter-increment: goal;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    margin: 0;
+    padding: 20px 22px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  li::before {
+    content: counter(goal);
+    flex: 0 0 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(135deg, var(--ocean-medium), var(--sea-green));
+  }
+  li span { padding-top: 5px; }
+}
+
+.cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 48px; }
+.cta-row .btn-solid, .cta-row .btn-solid:visited { background: var(--ocean-medium); color: #fff; }
+.cta-row .btn-solid:hover { background: var(--ocean-deep); color: #fff; transform: translateY(-2px); }
+.cta-row .btn-outline, .cta-row .btn-outline:visited { color: var(--ocean-medium); border-color: var(--ocean-foam); background: #fff; }
+.cta-row .btn-outline:hover { border-color: var(--ocean-light); color: var(--ocean-deep); }
+
 /* ===== Cards (home + case studies index) ===== */
 .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin: 24px 0 32px; }
 
