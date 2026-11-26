@@ -9,7 +9,7 @@ tide: micro
 slope: mixed
 energy: moderate
 constraints: navigation channels, heritage
-figure: ""          # e.g. /assets/img/case-studies/venice.jpg
+figure: "/assets/img/case-studies/Venice.png"
 figure_alt: ""      # short description of the image
 figure_caption: ""  # caption and credits
 context: |

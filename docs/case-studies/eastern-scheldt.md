@@ -9,7 +9,7 @@ tide: macro
 slope: flat
 energy: high
 constraints: existing storm barrier infrastructure, marine ecology
-figure: ""          # e.g. /assets/img/case-studies/eastern-scheldt.jpg
+figure: "/assets/img/case-studies/Rilland.png"  #eastern-scheldt.jpg
 figure_alt: ""      # short description of the image
 figure_caption: ""  # caption and credits
 context: |

@@ -9,7 +9,7 @@ tide: meso
 slope: variable
 energy: moderate
 constraints: port operations, natural heritage designation
-figure: ""          # e.g. /assets/img/case-studies/cork-harbour.jpg
+figure: "/assets/img/case-studies/Cork.png" #-harbour.jpg
 figure_alt: ""      # short description of the image
 figure_caption: ""  # caption and credits
 context: |
