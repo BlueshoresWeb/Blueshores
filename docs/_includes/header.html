@@ -1,3 +1,4 @@
+{%- assign u = page.url -%}
 <header class="site-header" role="banner">
   <div class="wrapper">
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
@@ -19,13 +20,12 @@
       </label>
 
       <div class="trigger">
-        <a class="page-link" href="{{ '/' | relative_url }}">Home</a>
-        <a class="page-link" href="{{ '/objectives' | relative_url }}">Objectives</a>
-        <a class="page-link" href="{{ '/case-studies/' | relative_url }}">Case Studies</a>
-        <a class="page-link" href="{{ '/news/' | relative_url }}">News</a>
-        <a class="page-link" href="{{ '/about' | relative_url }}">About Blueshores</a>
+        <a class="page-link{% if u == '/' %} active{% endif %}" href="{{ '/' | relative_url }}"{% if u == '/' %} aria-current="page"{% endif %}>Home</a>
+        <a class="page-link{% if u contains '/objectives' %} active{% endif %}" href="{{ '/objectives' | relative_url }}"{% if u contains '/objectives' %} aria-current="page"{% endif %}>Objectives</a>
+        <a class="page-link{% if u contains '/case-studies' %} active{% endif %}" href="{{ '/case-studies/' | relative_url }}"{% if u contains '/case-studies' %} aria-current="page"{% endif %}>Case Studies</a>
+        <a class="page-link{% if u contains '/news' %} active{% endif %}" href="{{ '/news/' | relative_url }}"{% if u contains '/news' %} aria-current="page"{% endif %}>News</a>
+        <a class="page-link{% if u contains '/about' %} active{% endif %}" href="{{ '/about' | relative_url }}"{% if u contains '/about' %} aria-current="page"{% endif %}>About Blueshores</a>
       </div>
     </nav>
   </div>
 </header>
-
