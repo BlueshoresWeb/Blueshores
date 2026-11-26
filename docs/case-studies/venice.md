@@ -2,6 +2,16 @@
 layout: case-study
 title: Venice Lagoon (micro-tidal)
 permalink: /case-studies/venice
+order: 1
+place: Venice Lagoon
+short: Innovative approaches to protecting Venice while supporting maritime activities.
+tide: micro
+slope: mixed
+energy: moderate
+constraints: navigation channels, heritage
+figure: ""          # e.g. /assets/img/case-studies/venice.jpg
+figure_alt: ""      # short description of the image
+figure_caption: ""  # caption and credits
 context: |
   Tide: micro • Slope: mixed • Energy: moderate. Constraints: navigation channels, heritage.
 intervention: |

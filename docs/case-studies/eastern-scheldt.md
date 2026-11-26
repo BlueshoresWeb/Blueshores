@@ -2,6 +2,16 @@
 layout: case-study
 title: Eastern Scheldt (macro-tidal)
 permalink: /case-studies/eastern-scheldt
+order: 2
+place: Eastern Scheldt
+short: Storm surge barrier enhancement with ecological integration in the Netherlands.
+tide: macro
+slope: flat
+energy: high
+constraints: existing storm barrier infrastructure, marine ecology
+figure: ""          # e.g. /assets/img/case-studies/eastern-scheldt.jpg
+figure_alt: ""      # short description of the image
+figure_caption: ""  # caption and credits
 context: |
   Tide: macro • Slope: flat • Energy: high. Constraints: existing storm barrier infrastructure, marine ecology.
 intervention: |

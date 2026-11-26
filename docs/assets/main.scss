@@ -249,6 +249,106 @@ a:hover { text-decoration: none; }
 .cta-row .btn-outline, .cta-row .btn-outline:visited { color: var(--ocean-medium); border-color: var(--ocean-foam); background: #fff; }
 .cta-row .btn-outline:hover { border-color: var(--ocean-light); color: var(--ocean-deep); }
 
+/* ===== Case studies: pick one and unfold it in place ===== */
+.cs-picker { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 24px; }
+@media (min-width: 820px) {
+  .cs-picker { grid-template-columns: repeat(3, 1fr); }
+  .cs-picker > .cs-panel { order: 10; grid-column: 1 / -1; }
+}
+
+.cs-tab {
+  -webkit-appearance: none;
+  appearance: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+  cursor: pointer;
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+
+  &:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--ocean-light); }
+  &:focus-visible { outline: 3px solid var(--ocean-light); outline-offset: 2px; }
+  &[aria-expanded="true"] { border-color: var(--ocean-medium); box-shadow: 0 0 0 2px var(--ocean-medium), var(--shadow); }
+  .card-link { margin-top: auto; padding-top: 8px; color: var(--ocean-medium); font-weight: 600; font-size: .92rem; }
+  .cta-open { display: none; }
+  &[aria-expanded="true"] .cta-open { display: inline; }
+  &[aria-expanded="true"] .cta-closed { display: none; }
+}
+
+.cs-tide { display: flex; align-items: center; font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ocean-medium); }
+.cs-title { font-size: 1.2rem; font-weight: 700; line-height: 1.25; color: var(--ocean-deep); }
+.cs-desc { color: var(--muted); font-size: .95rem; }
+
+// three rising bars showing the tidal range (micro, meso, macro)
+.tide-meter { display: inline-flex; align-items: flex-end; gap: 3px; height: 18px; margin-right: 10px; }
+.tide-meter i { display: block; width: 5px; border-radius: 2px; background: var(--line); }
+.tide-meter i:nth-child(1) { height: 6px; }
+.tide-meter i:nth-child(2) { height: 12px; }
+.tide-meter i:nth-child(3) { height: 18px; }
+.tide-meter[data-level="1"] i:nth-child(1),
+.tide-meter[data-level="2"] i:nth-child(-n+2),
+.tide-meter[data-level="3"] i { background: var(--ocean-medium); }
+
+.cs-panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  scroll-margin-top: 96px;
+  animation: csIn .35s ease;
+}
+@keyframes csIn { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
+
+.cs-panel-head { padding: 24px 28px; color: #fff; background: linear-gradient(135deg, #003d5c 0%, #0077be 70%); }
+.cs-panel-head h3 { margin: 0 0 12px; font-size: 1.5rem; color: #fff; }
+.cs-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.cs-chip { padding: 5px 12px; border-radius: 999px; font-size: .85rem; background: rgba(255, 255, 255, .16); color: #fff; }
+
+.cs-body { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; padding: 28px; }
+.cs-block h4 { margin: 0 0 6px; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ocean-medium); }
+.cs-block p { margin: 0; }
+
+.cs-kpis { padding: 0 28px 28px; }
+.cs-kpis h4 { margin: 0 0 12px; font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--ocean-medium); }
+.cs-kpi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.cs-kpi { background: var(--tint); border-radius: 14px; padding: 14px 16px; }
+.cs-kpi b { display: block; font-size: 1.3rem; color: var(--ocean-deep); }
+.cs-kpi span { font-size: .82rem; color: var(--muted); }
+
+/* ===== Case studies: figure slot ===== */
+.cs-figure { margin: 0; padding: 28px 28px 0; }
+.cs-figure img { display: block; width: 100%; height: auto; border-radius: 14px; }
+.cs-figure figcaption { margin-top: 10px; font-size: .85rem; color: var(--muted); }
+.cs-figure-frame {
+  aspect-ratio: 16 / 7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px;
+  border: 2px dashed var(--ocean-foam);
+  border-radius: 14px;
+  background: var(--tint);
+  color: var(--muted);
+  font-size: .92rem;
+  text-align: center;
+}
+.cs-figure-frame svg { width: 36px; height: 36px; stroke: var(--ocean-light); }
+
+.cs-foot { padding: 0 28px 26px; }
+.cs-more { font-weight: 600; font-size: .92rem; }
+.case-study .cs-figure { padding: 0; margin: 0 0 24px; }
+
 /* ===== Cards (home + case studies index) ===== */
 .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; margin: 24px 0 32px; }
 
@@ -309,5 +409,5 @@ a.card .card-link { color: var(--ocean-medium); font-weight: 600; font-size: .92
 .eu-text { font-size: .88rem; line-height: 1.5; max-width: 720px; margin: 0 auto; color: var(--muted); }
 
 @media (prefers-reduced-motion: reduce) {
-  * { transition: none !important; scroll-behavior: auto !important; }
+  * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }

@@ -4,6 +4,13 @@ layout: default
 <article class="case-study">
   <h1>{{ page.title }}</h1>
 
+  {% if page.figure and page.figure != "" %}
+  <figure class="cs-figure">
+    <img src="{{ page.figure | relative_url }}" alt="{{ page.figure_alt | default: page.place | escape }}">
+    {% if page.figure_caption and page.figure_caption != "" %}<figcaption>{{ page.figure_caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+
   <h2>Context</h2>
   {{ page.context | markdownify }}
 

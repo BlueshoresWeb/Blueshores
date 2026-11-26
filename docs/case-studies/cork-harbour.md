@@ -2,6 +2,16 @@
 layout: case-study
 title: Cork Harbour (meso-tidal)
 permalink: /case-studies/cork-harbour
+order: 3
+place: Cork Harbour
+short: Sustainable port development with environmental restoration in Ireland.
+tide: meso
+slope: variable
+energy: moderate
+constraints: port operations, natural heritage designation
+figure: ""          # e.g. /assets/img/case-studies/cork-harbour.jpg
+figure_alt: ""      # short description of the image
+figure_caption: ""  # caption and credits
 context: |
   Tide: meso • Slope: variable • Energy: moderate. Constraints: port operations, natural heritage designation.
 intervention: |
