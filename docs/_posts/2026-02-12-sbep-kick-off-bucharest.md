@@ -1,7 +1,8 @@
 ---
 title: "BLUESHORES presented at the SBEP kick-off meeting in Bucharest"
-label: Event
+label: Announcement
 summary: "BLUESHORES was presented at the Sustainable Blue Economy Partnership kick-off meeting, introducing its innovative approach to hybrid foreshore infrastructure, demonstration sites and expected impacts."
+image: /assets/img/posts/image_bucharest.png
 links:
   - label: "Download presentation (PDF)"
     url: /assets/presentations/blueshores-sbep-kick-off-bucharest.pdf
