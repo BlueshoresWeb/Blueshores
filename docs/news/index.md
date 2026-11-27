@@ -63,9 +63,4 @@ permalink: /news/
 </section>
 {:/nomarkdown}
 
-<div class="cta-row">
-  <a class="btn btn-solid" href="{{ '/case-studies/' | relative_url }}">Explore case studies</a>
-  <a class="btn btn-outline" href="{{ '/' | relative_url }}">Back to Home</a>
-</div>
-
 <script src="{{ '/assets/js/news-feed.js' | relative_url }}" defer></script>

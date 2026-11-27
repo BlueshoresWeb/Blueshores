@@ -4,6 +4,9 @@ title: "Welcome to the new Blueshores website"
 date: 2026-11-27 10:00:00 +0100
 label: Announcement
 summary: "The Blueshores project has a new home online, with pages on our objectives, the three case studies and the latest project news."
+image: /assets/img/posts/webpage.png
+image_alt: ""
+image_caption: ""
 ---
 
 We are pleased to launch the new Blueshores website. It brings together what the project aims to achieve, how we are testing hybrid multifunctional foreshore infrastructure in Venice Lagoon, the Eastern Scheldt and Cork Harbour, and the latest news from the team.
