@@ -412,3 +412,5 @@ a.card .card-link { color: var(--ocean-medium); font-weight: 600; font-size: .92
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
 }
+
+@import "blueshores-news";

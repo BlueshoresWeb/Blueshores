@@ -17,3 +17,13 @@ header_pages:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+  # News posts (docs/_posts/YYYY-MM-DD-title.md)
+permalink: /news/:title/
+future: true
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: news-post
