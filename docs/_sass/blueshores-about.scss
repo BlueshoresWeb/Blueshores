@@ -5,7 +5,7 @@
 .about-sub { margin: 32px 0 12px; font-size: 1.05rem; color: var(--ocean-deep); }
 
 /* The partner logos use the shared .logo-grid / .logo-card styles from main.scss */
-.logo-grid--single { grid-template-columns: minmax(170px, 260px); margin-bottom: 20px; }
+.logo-grid--single { grid-template-columns: 1fr; margin-bottom: 20px; }
 
 .partner-list {
   list-style: none;
@@ -89,4 +89,28 @@
   .contact-label { margin-bottom: 6px; font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ocean-medium); }
   .contact-name { font-size: 1.1rem; font-weight: 700; color: var(--ocean-deep); }
   .contact-mail { color: var(--muted); }
+}
+
+.about-note {
+  max-width: 100%;
+}
+
+.logo-grid--single {
+  grid-template-columns: 1fr;
+}
+
+.logo-grid--single .logo-card {
+  height: auto;
+  padding: 24px;
+}
+
+.logo-grid--single .logo-card img {
+  width: 100%;
+  max-width: 100%;
+  max-height: none;
+  height: auto;
+}
+
+.funding-text {
+  max-width: 100%;
 }

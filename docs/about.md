@@ -83,8 +83,3 @@ team_photo_caption: ""  # caption and credits
 </section>
 {:/nomarkdown}
 
-<div class="cta-row">
-  <a class="btn btn-solid" href="{{ '/objectives' | relative_url }}">View our objectives</a>
-  <a class="btn btn-outline" href="{{ '/news/' | relative_url }}">Read the latest news</a>
-  <a class="btn btn-outline" href="{{ '/' | relative_url }}">Back to Home</a>
-</div>
