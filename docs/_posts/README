@@ -1,0 +1,19 @@
+HOW TO INTRODUCE NEW POSTS
+FORMAT md markdown file
+--
+How it works
+
+One file per news item. To add news, you create a small Markdown file in a new _posts folder, named with the date and a title, for example 2027-02-10-workshop-in-venice.md.
+Newest first, automatically. The News page sorts them by date, so you never edit the page itself.
+Highlights plus unfolding. Each item shows its date, a label such as "Announcement", the title, a short highlights text and an optional cover image. "Read more" unfolds the full text in place, with pictures, buttons and hashtags.
+Links. A link like …/news/#rethinking-coastal-protection-with-nature opens that item directly. Each item also has its own page, which is useful for sharing, and the site now gets an RSS feed automatically.
+--
+The preview also contains two sample entries marked "preview only", so you can see the filter and the links. They are not in the zip, so they won't appear on your real site.
+
+Small image on the card, larger when unfolded. The big banner is gone. Each card now has a small picture beside the text, and "Read more" unfolds the full text with a larger image at the top. You set this with two optional lines in the post's top section:
+
+image: is the large picture shown when the item is unfolded.
+thumb: is a separate small picture for the card. If you leave it out, the card uses a cropped version of image.
+image_caption: is an optional caption under the large image.
+The flyer and LinkedIn buttons only appear once you fill in flyer: and linkedin: in the post's top lines. Put the flyer PDF somewhere like docs/assets/files/ and point to it.
+

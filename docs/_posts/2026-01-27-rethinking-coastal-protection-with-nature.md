@@ -1,7 +1,7 @@
 ---
 layout: news-post
 title: "BLUESHORES: rethinking coastal protection with nature"
-date: 2026-11-27 12:00:00 +0100
+date: 2026-01-27 12:00:00 +0100
 label: Announcement
 summary: "A new generation of hybrid blue-green infrastructure that combines engineered elements with nature-based restoration, to be tested in Venice Lagoon, the Eastern Scheldt Estuary and Cork Harbour."
 image: /assets/img/hero/Trimmed_Venice_Credits_Patrizio.png
