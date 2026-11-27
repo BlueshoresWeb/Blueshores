@@ -114,3 +114,42 @@
 .funding-text {
   max-width: 100%;
 }
+
+/* ===== Funding: side-by-side layout ===== */
+
+.funding-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 35fr) minmax(0, 65fr);
+  align-items: center;
+  gap: 28px;
+}
+
+.funding-layout .logo-grid--single {
+  margin: 0;
+}
+
+.funding-layout .logo-card {
+  height: auto;
+  padding: 24px;
+}
+
+.funding-layout .logo-card img {
+  width: 100%;
+  max-width: 100%;
+  max-height: none;
+  height: auto;
+}
+
+.funding-layout .funding-text {
+  margin: 0;
+  max-width: 100%;
+}
+
+/* Mobile layout */
+
+@media (max-width: 700px) {
+  .funding-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
