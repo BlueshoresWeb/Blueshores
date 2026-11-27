@@ -1,0 +1,123 @@
+// News section styles. Imported at the end of assets/main.scss.
+
+/* ===== Type filter ===== */
+.news-filter { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; }
+.news-filter[hidden] { display: none; }
+
+.news-chip {
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 7px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--muted);
+  font: inherit;
+  font-size: .9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .2s ease, color .2s ease, border-color .2s ease;
+
+  &:hover { border-color: var(--ocean-light); color: var(--ocean-deep); }
+  &:focus-visible { outline: 3px solid var(--ocean-light); outline-offset: 2px; }
+  &.is-active { background: var(--ocean-deep); border-color: var(--ocean-deep); color: #fff; }
+}
+
+/* ===== Feed and cards ===== */
+.news-feed { display: grid; gap: 24px; }
+
+.news-item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: box-shadow .2s ease, border-color .2s ease;
+
+  &:hover { box-shadow: var(--shadow); border-color: var(--ocean-light); }
+  &[hidden] { display: none; }
+}
+
+.news-head { display: flex; align-items: flex-start; gap: 22px; padding: 24px 28px; }
+.news-text { flex: 1; min-width: 0; }
+
+.news-thumb {
+  flex: 0 0 190px;
+  width: 190px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 14px;
+  background: var(--tint);
+}
+
+.news-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 8px;
+  font-size: .85rem;
+  color: var(--muted);
+}
+.news-label {
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgba(0, 119, 190, 0.10);
+  color: var(--ocean-deep);
+  font-size: .78rem;
+  font-weight: 600;
+}
+
+.news-item .news-title { margin: 0 0 10px; font-size: clamp(1.3rem, 3vw, 1.7rem); }
+.news-summary { margin: 0 0 14px; }
+
+.news-toggle {
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: 600;
+  color: var(--ocean-medium);
+  cursor: pointer;
+
+  &:hover { color: var(--ocean-deep); }
+  &:focus-visible { outline: 3px solid var(--ocean-light); outline-offset: 3px; border-radius: 4px; }
+  .t-open { display: none; }
+  &[aria-expanded="true"] .t-open { display: inline; }
+  &[aria-expanded="true"] .t-closed { display: none; }
+}
+
+/* ===== Unfolded text ===== */
+.news-body {
+  margin: 0 28px;
+  padding: 22px 0 26px;
+  border-top: 1px solid var(--line);
+  animation: newsIn .35s ease;
+
+  img { max-width: 100%; height: auto; border-radius: 14px; }
+  p > em:only-child { display: block; font-size: .85rem; color: var(--muted); }
+  ul, ol { margin-bottom: 1rem; }
+}
+.news-body--page { margin: 0; padding: 0; border-top: 0; animation: none; }
+@keyframes newsIn { from { opacity: 0; transform: translateY(-6px); } to { opacity: 1; transform: none; } }
+
+.news-figure { margin: 0 0 20px; }
+.news-figure img { display: block; width: 100%; height: auto; border-radius: 14px; }
+.news-figure figcaption { margin-top: 8px; font-size: .85rem; color: var(--muted); }
+
+.news-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 22px 0 0; }
+.news-actions .btn-solid, .news-actions .btn-solid:visited { background: var(--ocean-medium); color: #fff; }
+.news-actions .btn-solid:hover { background: var(--ocean-deep); color: #fff; transform: translateY(-2px); }
+.news-actions .btn-outline, .news-actions .btn-outline:visited { background: #fff; color: var(--ocean-medium); border-color: var(--ocean-foam); }
+.news-actions .btn-outline:hover { border-color: var(--ocean-light); color: var(--ocean-deep); }
+
+.news-tags { margin: 18px 0 0; font-size: .85rem; color: var(--muted); }
+.news-foot { margin: 14px 0 0; font-size: .92rem; font-weight: 600; }
+
+@media (max-width: 600px) {
+  .news-head { flex-direction: column; gap: 16px; padding: 20px; }
+  .news-thumb { flex: none; width: 130px; }
+  .news-body { margin: 0 20px; }
+  .news-body--page { margin: 0; }
+}
