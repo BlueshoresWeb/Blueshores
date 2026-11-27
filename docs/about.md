@@ -2,7 +2,7 @@
 layout: default
 title: About
 permalink: /about
-team_photo: "/assets/img/teams/team.jpg"
+team_photo: "/assets/img/teams/team.png"
 team_photo_alt: ""      # short description of the photo
 team_photo_caption: ""  # caption and credits
 ---
