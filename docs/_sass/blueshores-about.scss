@@ -1,0 +1,92 @@
+// About page styles. Pulled in from blueshores-news.scss, so no extra import is needed.
+
+.about-section { margin-top: 48px; }
+.about-section > h2 { margin-top: 0; }
+.about-sub { margin: 32px 0 12px; font-size: 1.05rem; color: var(--ocean-deep); }
+
+/* The partner logos use the shared .logo-grid / .logo-card styles from main.scss */
+.logo-grid--single { grid-template-columns: minmax(170px, 260px); margin-bottom: 20px; }
+
+.partner-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px 20px;
+
+  li {
+    margin: 0;
+    padding: 12px 16px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    font-size: .95rem;
+    line-height: 1.45;
+  }
+  b { margin-right: 6px; color: var(--ocean-medium); }
+}
+
+/* Foldable blocks (native <details>, works without JavaScript) */
+.fold {
+  margin: 0 0 14px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  transition: box-shadow .2s ease, border-color .2s ease;
+
+  &[open] { border-color: var(--ocean-light); box-shadow: var(--shadow); }
+
+  summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px 24px;
+    list-style: none;
+    cursor: pointer;
+
+    &::-webkit-details-marker { display: none; }
+    &::after {
+      content: "+";
+      flex: none;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: rgba(0, 119, 190, 0.10);
+      color: var(--ocean-medium);
+      font-size: 1.3rem;
+      font-weight: 600;
+      line-height: 1;
+    }
+    &:focus-visible { outline: 3px solid var(--ocean-light); outline-offset: 2px; border-radius: var(--radius); }
+    h2 { margin: 0; font-size: 1.15rem; }
+  }
+  &[open] summary::after { content: "\2212"; }
+}
+.fold-body { padding: 0 24px 22px; }
+.fold-body p { margin: 0; max-width: 72ch; }
+
+.team-figure { margin: 0 0 18px; max-width: 720px; }
+.team-figure img { display: block; width: 100%; height: auto; border-radius: 14px; }
+.team-figure figcaption { margin-top: 8px; font-size: .85rem; color: var(--muted); }
+.about-note { margin: 0; max-width: 72ch; color: var(--muted); font-style: italic; }
+
+.funding-text { margin: 0; max-width: 72ch; }
+
+.contact-card {
+  display: inline-block;
+  min-width: 260px;
+  padding: 18px 24px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+
+  p { margin: 0; }
+  .contact-label { margin-bottom: 6px; font-size: .78rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--ocean-medium); }
+  .contact-name { font-size: 1.1rem; font-weight: 700; color: var(--ocean-deep); }
+  .contact-mail { color: var(--muted); }
+}
