@@ -9,7 +9,7 @@ image_alt: "Illustration of hybrid multifunctional foreshore infrastructure"
 image_caption: ""
 # thumb: /assets/img/news/small-version.jpg   (optional small picture for the card; defaults to image)
 links:
-x#   - { label: "Download the flyer (PDF)", url: "/assets/presentations/01-blueshores-introduction.pdf" }
+   - { label: "Download the flyer (PDF)", url: "/assets/presentations/01-blueshores-introduction.pdf" }
 #   - { label: "View on LinkedIn", url: "https://www.linkedin.com/" }
 tags: [BLUESHORES, BlueGreenInfrastructure, NatureBasedSolutions, CoastalResilience, BlueEconomy, OceanScience, ClimateAdaptation, CoastalProtection, OceanDecade]
 ---
