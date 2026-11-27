@@ -62,7 +62,7 @@ team_photo_caption: ""  # caption and credits
 <div class="cs-figure-frame"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M21 16l-5-5-8 8"/></svg><span>Photo of the project team</span></div>
 {%- endif -%}
 </figure>
-<p class="about-note">Information about the research team, partner institutions, and collaborating organizations will be added as the project develops.</p>
+<p class="about-note">In Venice, October 2025.</p>
 </section>
 
 <section class="about-section">

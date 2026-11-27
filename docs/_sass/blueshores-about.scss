@@ -70,12 +70,12 @@
 .fold-body { padding: 0 24px 22px; }
 .fold-body p { margin: 0; max-width: 72ch; }
 
-.team-figure { margin: 0 0 18px; max-width: 720px; }
+.team-figure { margin: 0 0 18px; max-width: 100%; }
 .team-figure img { display: block; width: 100%; height: auto; border-radius: 14px; }
 .team-figure figcaption { margin-top: 8px; font-size: .85rem; color: var(--muted); }
 .about-note { margin: 0; max-width: 72ch; color: var(--muted); font-style: italic; }
 
-.funding-text { margin: 0; max-width: 72ch; }
+.funding-text { margin: 0; max-width: 100%; }
 
 .contact-card {
   display: inline-block;
