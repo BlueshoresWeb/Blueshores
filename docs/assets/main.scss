@@ -344,6 +344,7 @@ a:hover { text-decoration: none; }
   text-align: center;
 }
 .cs-figure-frame svg { width: 36px; height: 36px; stroke: var(--ocean-light); }
+.cs-figure img, .cs-figure-frame { max-width: 560px; margin: 0 auto;}
 
 .cs-foot { padding: 0 28px 26px; }
 .cs-more { font-weight: 600; font-size: .92rem; }
