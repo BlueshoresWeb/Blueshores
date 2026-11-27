@@ -68,7 +68,7 @@ team_photo_caption: ""  # caption and credits
 <section class="about-section">
 <h2>Funding and Support</h2>
 <div class="logo-grid logo-grid--single" aria-label="Funder logo">
-<a class="logo-card" href="https://bluepartnership.eu/" target="_blank" rel="noopener"><img src="{{ '/assets/img/logos/SBEP.svg' | relative_url }}" alt="Sustainable Blue Economy Partnership" loading="lazy"></a>
+<a class="logo-card" href="https://bluepartnership.eu/projects/developing-hybrid-multifunctional-foreshore-infrastructure-optimises-environmental-and" target="_blank" rel="noopener"><img src="{{ '/assets/img/logos/SBEP.svg' | relative_url }}" alt="Sustainable Blue Economy Partnership" loading="lazy"></a>
 </div>
 <p class="funding-text"><b>BLUESHORES</b> Developing hybrid multifunctional foreshore infrastructure that optimises environmental and blue economy benefits, is part of the Joint Transnational Call for proposals 2024: “Unified paths to a climate-neutral, sustainable and resilient blue economy: engaging civil society, academia, policy and industry” launched by the Sustainable Blue Economy Partnership.</p>
 </section>
