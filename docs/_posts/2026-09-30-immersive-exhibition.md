@@ -2,7 +2,7 @@
 layout: news-post
 title: 'Experiencing the lagoon: the BLUESHORES immersive exhibition'
 date: 2026-09-30 12:00:00 +0100
-label: Outreach
+label: Event
 summary: An immersive exhibition in Chioggia combines science, photography, art, natural materials and sound to explore the lagoon environment and our relationship with nature.
 tags:
 - BLUESHORES
